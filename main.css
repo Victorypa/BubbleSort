@@ -1,0 +1,47 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.goods-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.goods-card {
+    width: 22%;
+    margin: 20px 1.5%;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+}
+
+.goods-card h1 {
+    font-size: 14px;
+    height: 32px;
+}
+
+
+.goods-card p {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+    color: green;
+}
+
+.goods-card .buy {
+    display: block;
+    margin: 20px auto;
+    background: #00a046;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+}
+
+.goods-card img {
+    max-width: 90%;
+    display: block;
+    height: 110px;
+    margin: 20px auto;
+}
